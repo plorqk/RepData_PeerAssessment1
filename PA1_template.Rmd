@@ -5,6 +5,7 @@
 
 ```{r}
 #read in data
+unzip("activity.zip")
 data <- read.csv("activity.csv",header=TRUE,na.strings="NA")
 ```
 

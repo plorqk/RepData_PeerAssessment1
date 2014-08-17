@@ -6,15 +6,8 @@
 
 ```r
 #read in data
+unzip("activity.zip")
 data <- read.csv("activity.csv",header=TRUE,na.strings="NA")
-```
-
-```
-## Warning: cannot open file 'activity.csv': No such file or directory
-```
-
-```
-## Error: cannot open the connection
 ```
 
 ## What is mean total number of steps taken per day?
